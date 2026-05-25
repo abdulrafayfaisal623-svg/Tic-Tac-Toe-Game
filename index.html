@@ -351,38 +351,77 @@
 
         @media(max-width: 600px){
 
-            h1{
+    body{
+        padding: 15px;
+    }
 
-                font-size: 38px;
+    .container{
+        width: 100%;
+        padding: 20px 10px;
+    }
 
-            }
+    h1{
+        font-size: 28px;
+        line-height: 1.3;
+    }
 
-            .board{
+    .status{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
 
-                grid-template-columns: repeat(3, 90px);
+    .scoreboard{
+        gap: 10px;
+    }
 
-                grid-template-rows: repeat(3, 90px);
+    .score-box{
+        min-width: 90px;
+        padding: 10px;
+    }
 
-            }
+    .score-box h3{
+        font-size: 13px;
+    }
 
-            .cell{
+    .score-box p{
+        font-size: 18px;
+    }
 
-                width: 90px;
+    .board{
 
-                height: 90px;
+        grid-template-columns: repeat(3, 80px);
 
-                font-size: 45px;
+        grid-template-rows: repeat(3, 80px);
 
-            }
+        gap: 8px;
 
-            .status{
+    }
 
-                font-size: 18px;
+    .cell{
 
-            }
+        width: 80px;
 
-        }
+        height: 80px;
 
+        font-size: 38px;
+
+        border-radius: 12px;
+
+    }
+
+    button{
+
+        width: 90%;
+
+        padding: 14px;
+
+        font-size: 15px;
+
+        margin: 8px 0;
+
+    }
+
+}
     </style>
 
 </head>
